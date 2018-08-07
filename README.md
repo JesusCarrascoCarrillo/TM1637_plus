@@ -1,6 +1,6 @@
-TM1637
+TM1637_plus
 ======
-Arduino library for TM1637 (LED Driver)
+Arduino library for TM1637 (LED Driver) by RobotDyn
 
 
 Description
