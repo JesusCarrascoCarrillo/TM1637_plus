@@ -26,11 +26,3 @@ The library provides a single class named TM1637. An instance of this class prov
 * `set` - Sets the brightness and other parameters of the display
 * `point` - Display a point in the position or all point in the dispaly
 
-Le position of segment is
-    a																	   
-   ---
-f |   | b
-   ---
-e | g | c
-   ---
-    d	
