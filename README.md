@@ -23,7 +23,8 @@ The library provides a single class named TM1637. An instance of this class prov
 * `init` - To clear the display
 * `display` - Display a digit or 4 digit in array
 * `display_sym` - display a sym in the position, the sym is a 7 segment
-    a																	    ---
+    a																	   
+   ---
 f |   | b
    ---
 e | g | c
