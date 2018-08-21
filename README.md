@@ -23,14 +23,13 @@ The library provides a single class named TM1637. An instance of this class prov
 * `init` - To clear the display
 * `display` - Display a digit or 4 digit in array
 * `display_sym` - display a sym in the position, the sym is a 7 segment
-                                       a
-																	    ---
-																	 f |   | b
-																	    ---
-																	 e | g | c
-																	    ---
-																		   d	
+    a																	    ---
+f |   | b
+   ---
+e | g | c
+   ---
+   d	
 * `set` - Sets the brightness and other parameters of the display
 * `point` - Display a point in the position or all point in the dispaly
 
-The information given above is only a summary. Please refer to TM1637Display.h for more information. An example is included, demonstrating the operation of most of the functions.
+
