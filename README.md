@@ -17,11 +17,20 @@ The library is installed as any Arduino library, by copying the files into a dir
 
 Usage
 -----
-The library provides a single class named TM1637Display. An instance of this class provides the following functions:
+The library provides a single class named TM1637. An instance of this class provides the following functions:
 
-* `setSegments` - Set the raw value of the segments of each digit
-* `showNumberDec` - Display a decimal number
-* `showNumberDecEx` - Display a decimal number with decimal points or colon
-* `setBrightness` - Sets the brightness of the display
+* `TM1637` - init the class with the pin CLK and the pin DIO
+* `init` - To clear the display
+* `display` - Display a digit or 4 digit in array
+* `display_sym` - display a sym in the position, the sym is a 7 segment
+                                       a
+																	    ---
+																	 f |   | b
+																	    ---
+																	 e | g | c
+																	    ---
+																		   d	
+* `set` - Sets the brightness and other parameters of the display
+* `point` - Display a point in the position or all point in the dispaly
 
 The information given above is only a summary. Please refer to TM1637Display.h for more information. An example is included, demonstrating the operation of most of the functions.
